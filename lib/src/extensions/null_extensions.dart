@@ -1,0 +1,1 @@
+extension NullExtension on Null {}

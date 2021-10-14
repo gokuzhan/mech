@@ -5,5 +5,3 @@ export 'list_extensions.dart';
 export 'num_extensions.dart';
 export 'string_extensions.dart';
 export 'file_extensions.dart';
-export 'dynamic_extensions.dart';
-export 'null_extensions.dart';

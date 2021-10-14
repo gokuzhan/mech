@@ -1,6 +1,6 @@
 name: mech
-description: Dart common utils library
-version: 0.0.1+1
+description: mech is a dart library that provides helpers and more features
+version: 0.1.0
 homepage: https://github.com/gokuzhan/mech.git
 maintainer: Gokul Kannan (@gokuzhan)
 

@@ -1,9 +1,7 @@
 import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:mech/src/extensions/string_extensions.dart';
-import 'package:mech/src/extensions/file_extensions.dart';
-import 'package:mech/src/extensions/datetime_extensions.dart';
+import 'package:mech/src/extensions/extensions.dart';
 import 'package:mech/src/features/features.dart';
 
 import 'data.dart';
@@ -13,10 +11,13 @@ textStringTransforms() {
     expect("hello universe".capitalize, "Hello universe");
     expect("HELLO UNIVERSE".toLower, "hello universe");
     expect("hello universe".toUpper, "HELLO UNIVERSE");
-    expect(
-        'hello world & hello universe'.slugify, 'hello-world-hello-universe');
-    expect(
-        'hello-world-hello-universe'.escapeSlug, 'hello world hello universe');
+  });
+}
+
+testNumberUtilities() {
+  test('Test ALL the number utilities', () {
+    num number = 11.1111;
+    expect(number.digits, 2);
   });
 }
 

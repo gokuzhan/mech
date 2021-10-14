@@ -2,7 +2,7 @@ import 'package:flutter_test/flutter_test.dart';
 
 import 'extensions_test.dart';
 
-void main() {
+Future<void> main() async {
   group('STRING EXTENSIONS', () {
     textStringTransforms();
   });
